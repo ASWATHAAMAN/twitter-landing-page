@@ -41,6 +41,11 @@ img {
   align-items: flex-end;
   justify-content: center;
   margin-top: 10px;
+  margin-right: 20px;
+}
+.header{
+  position: fixed;
+  top: 1%;
 }
 .search-bar{
   display: flex;
@@ -59,7 +64,7 @@ img {
   background-color: rgb(104, 108, 118);
   color: #fff;
   width: 400px;
-  margin-top: 15px;
+  margin-top: 4rem;
   border-radius: 18px;
 }
 .verify{
@@ -83,4 +88,213 @@ img {
   cursor: pointer;
   background-color: dodgerblue;
 }
+.trending{
+  padding: 20px 1.5rem;
+  background-color: rgb(104, 108, 118);
+  color: #fff;
+  width: 400px;
+  margin-top: 1rem;
+  border-radius: 18px;
+}
+.heading{
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.first-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-one{
+  font-size: 15px;
+  color: rgb(205, 200, 200);
+  margin-bottom: 5px;
+}
+.tv-show{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.tweets{
+  font-size: 15px;
+  color: rgb(205, 200, 200);
+  margin-bottom: 25px;
+}
+.second-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifth-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots{
+  margin-bottom: 4.5rem;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(205, 200, 200);
+}
+.more{
+  font-size: 18px;
+  font-weight: 400;
+  color: dodgerblue;
+}
+.first-place:hover{
+  background-color: rgb(131, 135, 146);
+  cursor: pointer;
+}
+.second-place:hover{
+  background-color: rgb(131, 135, 146);
+  cursor: pointer;
+}
+.third-place:hover{
+  background-color: rgb(131, 135, 146);
+  cursor: pointer;
+}
+.fourth-place:hover{
+  background-color: rgb(131, 135, 146);
+  cursor: pointer;
+}
+.fifth-place:hover{
+  background-color: rgb(131, 135, 146);
+  cursor: pointer;
+}
+.more:hover{
+  cursor: pointer;
+}
+.celebrities{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 1.5rem;
+  background-color: rgb(104, 108, 118);
+  color: #fff;
+  width: 400px;
+  margin-top: 1rem;
+  border-radius: 18px;
+}
+.title-tag{
+  width: 350px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.actors{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.cinema{
+  width: 15%;
+  border-radius: 50%;
+}
+.tick{
+  width: 9%;
+}
+.modify{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero{
+  display: flex;
+  gap: 20px;
+}
+.hero-name{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.hero-name:hover{
+  text-decoration: underline;
+  
+}
+.id{
+  color: rgb(205, 200, 200);
+}
+.follow-btn{
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+  border-radius: 18px;
+}
+.following{
+  font-weight: 700;
+}
+.more-opt{
+  width: 350px;
+  margin-top: 25px;
+  font-size: 18px;
+  color: dodgerblue;
+  cursor: pointer;
+}
+.copy-right{
+  width: 3%;
+}
+.footer{
+  width: 27%;
+  margin: 1.5rem 0px;
+}
+.instruct-one{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.ins-one:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-two:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-three:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-four{
+ margin-right: 10px;
+}
+.ins-five{
+ margin-right: 10px;
+}
+.ins-six{
+ margin-right: 10px;
+}
+.ins-seven{
+ margin-right: 10px;
+}
+.ins-four:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-five:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-six:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ins-seven:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 
