@@ -35,148 +35,183 @@ img {
   height: auto;
   object-fit: contain;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  background-color: black;
+  padding: 10px;
+  width: 30%;
+
   margin-right: 20px;
 }
-.header{
+.header {
   position: fixed;
-  top: 1%;
+  top: 0;
+  padding: 20px 0 20px 0px;
+  background-color: black;
 }
-.search-bar{
+.search-bar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   padding: 15px 1.5rem;
+  margin-left: 10px;
   font-size: 18px;
   width: 400px;
   background-color: rgb(104, 108, 118);
   border-radius: 20px;
   color: rgb(205, 200, 200);
 }
-.subscription{
+.subscription {
   padding: 20px 1.5rem;
   background-color: rgb(104, 108, 118);
   color: #fff;
   width: 400px;
-  margin-top: 4rem;
+  margin-top: 5.5rem;
   border-radius: 18px;
 }
-.verify{
+.verify {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.subscribe{
+.subscribe {
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 18px;
 }
-.verification{
+.verification {
   font-size: 18px;
   font-weight: 600;
   padding: 8px 20px;
   background-color: rgb(52, 153, 255);
   border-radius: 20px;
 }
-.verification:hover{
+.verification:hover {
   cursor: pointer;
   background-color: dodgerblue;
 }
-.trending{
-  padding: 20px 1.5rem;
+.trending {
+  /* padding: 20px 1.5rem; */
   background-color: rgb(104, 108, 118);
   color: #fff;
   width: 400px;
   margin-top: 1rem;
+  padding-bottom: 10px;
   border-radius: 18px;
 }
-.heading{
+.heading {
   font-size: 23px;
   font-weight: 800;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding: 1rem;
 }
-.first-place{
+
+.first-place {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
-.head-one{
+
+.entertainment {
+  padding-left: 10px;
+}
+.head-one {
   font-size: 15px;
   color: rgb(205, 200, 200);
   margin-bottom: 5px;
 }
-.tv-show{
+.tv-show {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.tweets{
+.tweets {
   font-size: 15px;
   color: rgb(205, 200, 200);
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
-.second-place{
+.second-place {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
-.third-place{
+
+.horror {
+    padding-left: 10px;
+}
+
+.third-place {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
-.fourth-place{
+
+.sports {
+    padding-left: 10px;
+}
+
+.fourth-place {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
-.fifth-place{
+.fifth-place {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem;
 }
-.dots{
-  margin-bottom: 4.5rem;
+.dots {
+  margin-bottom: 3.5rem;
   font-size: 22px;
   font-weight: 600;
   color: rgb(205, 200, 200);
 }
-.more{
+.more {
   font-size: 18px;
   font-weight: 400;
   color: dodgerblue;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.first-place:hover{
+
+.more span{
+  cursor: pointer;
+}
+.first-place:hover {
   background-color: rgb(131, 135, 146);
   cursor: pointer;
 }
-.second-place:hover{
+.second-place:hover {
   background-color: rgb(131, 135, 146);
   cursor: pointer;
 }
-.third-place:hover{
+.third-place:hover {
   background-color: rgb(131, 135, 146);
   cursor: pointer;
 }
-.fourth-place:hover{
+.fourth-place:hover {
   background-color: rgb(131, 135, 146);
   cursor: pointer;
 }
-.fifth-place:hover{
+.fifth-place:hover {
   background-color: rgb(131, 135, 146);
   cursor: pointer;
 }
-.more:hover{
-  cursor: pointer;
+.more:hover {
+  /* cursor: pointer; */
 }
-.celebrities{
+.celebrities {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,113 +223,111 @@ img {
   margin-top: 1rem;
   border-radius: 18px;
 }
-.title-tag{
+.title-tag {
   width: 350px;
   font-size: 25px;
   font-weight: 900;
 }
-.actors{
+.actors {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
   cursor: pointer;
 }
-.cinema{
+.cinema {
   width: 15%;
   border-radius: 50%;
 }
-.tick{
+.tick {
   width: 9%;
 }
-.modify{
+.modify {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.hero{
+.hero {
   display: flex;
   gap: 20px;
 }
-.hero-name{
+.hero-name {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
 }
-.hero-name:hover{
+.hero-name:hover {
   text-decoration: underline;
-  
 }
-.id{
+.id {
   color: rgb(205, 200, 200);
 }
-.follow-btn{
+.follow-btn {
   padding: 10px 20px;
   background-color: #fff;
   color: black;
   border-radius: 18px;
 }
-.following{
+.following {
   font-weight: 700;
 }
-.more-opt{
+.more-opt {
   width: 350px;
   margin-top: 25px;
   font-size: 18px;
   color: dodgerblue;
   cursor: pointer;
 }
-.copy-right{
+.copy-right {
   width: 3%;
 }
-.footer{
-  width: 27%;
-  margin: 1.5rem 0px;
+.footer {
+color: gray;
+    margin-left: 10px;
+    margin-top: 12px;
 }
-.instruct-one{
+.instruct-one {
   display: flex;
   gap: 15px;
   margin-bottom: 10px;
 }
-.ins-one:hover{
+.ins-one:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-two:hover{
+.ins-two:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-three:hover{
+.ins-three:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-four{
- margin-right: 10px;
+.ins-four {
+  margin-right: 10px;
 }
-.ins-five{
- margin-right: 10px;
+.ins-five {
+  margin-right: 10px;
 }
-.ins-six{
- margin-right: 10px;
+.ins-six {
+  margin-right: 10px;
 }
-.ins-seven{
- margin-right: 10px;
+.ins-seven {
+  margin-right: 10px;
 }
-.ins-four:hover{
+.ins-four:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-five:hover{
+.ins-five:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-six:hover{
+.ins-six:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.ins-seven:hover{
+.ins-seven:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-
-
